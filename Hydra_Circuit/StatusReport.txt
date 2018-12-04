@@ -1,0 +1,18 @@
+course: CA
+exercise: 1
+date: 2018-11-05
+author: Junpeng Lu, 2419351L
+author: Han Chen,2397450C
+author: Xiangru Xu, 2367947X
+
+The two circuit specifications are all completed in the circuit definition file, TrafficLight.hs, and test results showed that they all worked well given different test data.
+The two sets of test data are designed according to real life simulation. The test data of Traffic Light Circuit simulates two cases: reset the circuit and let it run without interference, reset it several times. The test data of Pedestrian Crossing simulates three cases: reset the circuit and let it run without interfernce, push the walkRequest button to let passengers through, push the walkRequest button several times to see what will happen.
+At the early stage of the design, we found that pushing walkRequest button again shortly after pushing it will set the circuit restart green --> amber --> red sequence. This means if you keep pushing the button, the light will never turn green which is unfair for drivers. So we changed the design to make sure that once been pushed, the walkRequest will have no effects at all if been pushed again in a few seconds.
+
+
+
+
+
+
+
+
