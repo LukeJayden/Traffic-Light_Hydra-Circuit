@@ -22,4 +22,4 @@ Try the example circuits in the examples directory.
 
 Install Sigma16:
 Unzip the zip file it and launch by going into the directory and clicking Sigma16.exe (the file type is Application).  
-It's convenient to right click it, create a shortcut, then cut the shortcut and paste it someplace convenient
+It's convenient to right click it, create a shortcut, then cut the shortcut and paste it someplace convenient.
